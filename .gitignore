@@ -1,0 +1,80 @@
+!.gitignore
+*.db
+*.pyc
+*.pyo
+*.log
+*.whl
+*~
+.env
+.idea
+*.pid
+*.ipynb
+settings_*.py
+wsgi_*.py
+restart.txt
+build
+static/js/node_modules
+static/django_js_reverse/js/reverse.js
+bin/
+include/
+lib/
+local/
+share/
+build/
+media/
+.cache
+.tox
+.directory
+.coverage.py*
+results.py*
+__pycache__/
+requirements/src/
+.vs
+
+# local dir and files
+data/
+log/
+src/
+staticfiles_producao/
+
+luzfcb_djdocuments/
+djdocuments/
+!templates/luzfcb_djdocuments/
+binarios_executaveis/
+
+# arquivo temporario do nano
+*.swp
+*.save
+*.save.*
+
+# ignorar pipfile
+Pipfile
+Pipfile.lock
+
+node_modules/
+
+# ignora virtual env Windows
+ENV
+
+# docker
+docker-compose.override.yml
+
+# certificados
+*.pem
+
+# arquivos compactados
+*.tar.xz
+# Pyenv
+.python-version
+.vs/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
